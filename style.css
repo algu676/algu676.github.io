@@ -1,0 +1,336 @@
+@keyframes swing {
+    15% {
+        transform: translate(30px);
+    }
+
+    40% {
+        transform: translate(-30px);
+    }
+
+    65% {
+        transform: translate(30px);
+    }
+
+    85% {
+        transform: translate(-30px);
+    }
+
+    100% {
+        transform: translate(30px);
+    }
+}
+
+body {
+    background: linear-gradient(to bottom right, #362f3c, #651a36);
+    margin: 0px;
+    font-family: 'Noto Serif TC', serif 'Satisfy', cursive;
+}
+
+* {
+    color: white;
+
+}
+
+h2 {
+    color: white;
+    font-size: 36px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+    margin: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.pro {
+    font-size: 50px;
+}
+
+header {
+    background-image: url(image/marble.jpg);
+    margin: 0px;
+    padding: 60px;
+    padding-bottom: 30px;
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+}
+
+.rub {
+    color: black;
+}
+
+nav {
+    font-size: 22px;
+    padding: 30px;
+    margin-bottom: 40px;
+}
+
+.url1 {
+    background-color: aliceblue;
+    border-radius: 10%;
+    padding: 10px;
+    color: black;
+    transition: 0.2s 0s;
+    font-weight: bold;
+}
+
+.url1:hover {
+    width: 200px;
+    background-color: rgb(83, 42, 125);
+    color: aliceblue;
+}
+
+.url2 {
+    background-color: aliceblue;
+    border-radius: 10%;
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+    transition: 0.2s 0s;
+}
+
+.url2:hover {
+    width: 200px;
+    background-color: rgb(97, 50, 128);
+    color: aliceblue;
+}
+
+.url3 {
+    background-color: aliceblue;
+    border-radius: 10%;
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+    transition: 0.2s 0s;
+}
+
+.url3:hover {
+    width: 200px;
+    background-color: rgb(110, 52, 115);
+    color: aliceblue;
+}
+
+.url4 {
+    background-color: aliceblue;
+    border-radius: 10%;
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+    transition: 0.2s 0s;
+}
+
+.url4:hover {
+    width: 200px;
+    background-color: rgb(129, 64, 120);
+    color: aliceblue;
+}
+
+.url5 {
+    background-color: aliceblue;
+    border-radius: 10%;
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+    transition: 0.2s 0s;
+}
+
+.url5:hover {
+    width: 200px;
+    background-color: rgb(129, 47, 105);
+    color: aliceblue;
+}
+
+.face {
+    position: absolute;
+    top: 280px;
+    left: 30px;
+}
+
+.mypic {
+    height: 370px;
+    width: 370px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: blanchedalmond;
+    border-width: 5px;
+    opacity: 1;
+    transition: all 0.8s 0.1s ease;
+    position: absolute;
+    left: 90px;
+    top: 290px;
+    z-index: 1;
+    float: left;
+}
+
+.mypic:hover {
+    opacity: 0;
+    transform: rotate(720deg);
+    filter: invert(20%);
+}
+
+.mydic {
+    height: 370px;
+    width: 370px;
+    border-radius: 50%;
+    border-style: dashed;
+    border-width: 5px;
+    border-color: rgb(255, 231, 205);
+    opacity: 1;
+    transition: all 0.2s 0s;
+    position: absolute;
+    left: 90px;
+    top: 290px;
+    float: left;
+}
+
+.picture {
+    transition: all 0.1s 0s;
+}
+
+.picture:hover {
+    transform: scale(1.2) rotate(2deg);
+}
+
+.auto {
+    border: blanchedalmond 4px solid;
+    margin: 20px;
+    line-height: 30px;
+    background-color: rgba(212, 196, 196, 0.342);
+    transition: all 0.5s 0s;
+}
+
+.auto:hover {
+    box-shadow: inset 0 0 0 12px rgb(255, 242, 222)
+}
+
+.aut {
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 40px;
+    padding-left: 280px;
+    font-size: 18px;
+
+}
+
+.proskill {
+    font-size: 30px;
+    padding-bottom: 50px;
+    text-align: center;
+    padding: 40px;
+}
+
+.exper {
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+
+}
+
+.exp {
+    padding: 5px;
+}
+
+.hei {
+    line-height: 36px;
+}
+
+.hobb {
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.hobpic {
+    border-radius: 5%;
+    transition: all 0.1s 0s;
+}
+
+.hobpic:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(6px 6px 0px rgb(255, 242, 0))
+}
+
+.cspcon {
+    display: grid;
+    grid-template-rows: 50% 1fr 1fr;
+    grid-template-columns: 40% 2fr 1fr 1fr 2fr;
+    grid-row-gap: 40px;
+    grid-column-gap: 50px;
+    margin: 30px;
+    padding-bottom: 50px;
+}
+
+.c1 {
+    grid-area: 1/1/4/2;
+}
+
+.c2 {
+    grid-area: 1/2/2/4;
+}
+
+.c3 {
+    grid-area: 1/4/2/6;
+}
+
+.c4 {
+    grid-area: 2/2/4/3;
+}
+
+.c5 {
+    grid-area: 2/3/4/5;
+}
+
+.c6 {
+    grid-area: 2/5/3/6;
+}
+
+.c6:hover {
+    animation: swing 0.1s 0;
+    animation-iteration-count: infinite;
+}
+
+.c7 {
+    grid-area: 3/5/4/6;
+}
+
+.c7:hover {
+    animation: swing 0.1s 0;
+    animation-iteration-count: infinite;
+}
+
+.top {
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    opacity: 69%;
+    transition: all 0.1s 0s;
+    filter: grayscale(5);
+}
+
+.top:hover {
+    opacity: 100%;
+    filter: grayscale(0);
+}
+
+footer {
+    text-align: center;
+    background-color: #22001c;
+    padding: 10px;
+    line-height: 69px;
+}
+
+.foot {
+    font-size: 30px;
+}
