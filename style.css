@@ -18,6 +18,14 @@
     100% {
         transform: translate(30px);
     }
+
+
+}
+
+.contr {
+    position: absolute;
+    top: 235px;
+    right: 20px
 }
 
 body {
